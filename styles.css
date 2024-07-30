@@ -1,0 +1,27 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 10px; /* Space between images */
+    padding: 10px;
+}
+
+.image-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.image-item img {
+    width: 100%; /* Responsive width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove default inline space */
+    object-fit: cover; /* Cover the container */
+}
