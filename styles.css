@@ -4,11 +4,12 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 10px 20px;
     background-color: #f8f8f8;
     border-bottom: 1px solid #ddd;
 }
@@ -18,8 +19,13 @@ body {
     text-align: center;
 }
 
+.header-item.logo {
+    flex: 0 1 auto; /* Allow logo to shrink and grow but not take more space than needed */
+}
+
 .header-item.logo img {
-    max-height: 50px; /* Adjust based on your logo size */
+    max-height: 60px; /* Adjust height to fit the header properly */
+    width: auto; /* Maintain aspect ratio */
 }
 
 .header-item.school-name {
@@ -29,7 +35,6 @@ body {
 .header-item.contact {
     text-align: right;
 }
-
 
 .image-grid {
     display: grid;
