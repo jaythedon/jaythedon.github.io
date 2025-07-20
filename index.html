@@ -1,340 +1,238 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bright Day School</title>
-     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-     <link rel="stylesheet" href="styles.css">
-    <style>
-      .top-header {
-      padding: 10px 0;
-    }
-    .top-header h5 {
-      margin: 0;
-    }
-    .top-header .navbar-brand img {
-      max-width: 120px; /* Constrains the logo width */
-      height: auto;
-    }
-    @media (max-width: 767px) {
-      .top-header .col {
-        text-align: center;
-        margin-bottom: 10px;
-      }
-      .top-header .col h5 {
-        font-size: 20px;
-      }
-    }
-      span {
-        color: orange;
-      }
-     
-      .notice-sction {
-        padding-top: 50px;
-        padding-bottom: 50px;
-      }
-      .our-facility-sction {
-        padding-top: 50px;
-        padding-bottom: 50px;
-      }
-      .staff-sction {
-        padding-top: 50px;
-        padding-bottom: 50px;
-      }
-      .notice {
-        background-color: orange;
-        color: #fff;
-        text-align: center;
-        padding: 10px;
-      }
-      .footer{
-        padding-left: 35px;
-    padding-right: 35px;
-    padding-top: 35px;
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bright Day School - Dhambola-Simalwara | Academic Excellence & Holistic Development</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <meta name="description" content="Bright Day School Dhambola-Simalwara offers academic excellence, holistic development, and a nurturing environment for students from Playgroup to 8th Standard. Discover our commitment to 100% results and comprehensive education.">
+    <meta name="keywords" content="Bright Day School, Dhambola-Simalwara, school, education, playgroup, 8th standard, English Medium, Vadodara, Gujarat, India, academic results, summer camp, holistic development, best school, quality education">
+    </head>
+<body>
 
-      }
-    </style>
-  </head>
-  <body>
-  <div class="top-header bg-dark">
-  <div class="container text-center">
-    <div class="row align-items-center">
-      <div class="col-md">
-        <h5 style="color: #fff; font-size: 50px">Bright Day School</h5>
-      </div>
-      <div class="col-md-auto">
-        <a class="navbar-brand" href="index.html">
-          <img src="./Images/logo.jpg" alt="School Logo">
-        </a>
-      </div>
-      <div class="col-md">
-        <h5 style="color: #fff; font-size: 15px">Call Now 8233236770, 9725237095</h5>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-        
-    <div class="header">
-      <div class="container">
-        <nav class="navbar navbar-expand-lg bg-light">
-          <div class="container-fluid">
-           
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNavDropdown"
-              aria-controls="navbarNavDropdown"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html"
-                    >Home</a
-                  >
-                </li>
-               
-                <li class="nav-item">
-                  <a class="nav-link" href="gallery.html">Gallery</a>
-                </li>
-               
-
-               
-                <li class="nav-item">
-                  <a class="nav-link" href="contact-us.html">Contact Us</a>
-                </li>
-               
-              </ul>
+    <header class="main-header">
+        <div class="container header-content">
+            <div class="logo">
+                <img src="Images/bds-logo.jpg" alt="Bright Day School Logo">
+                <h1>Bright Day School</h1>
             </div>
-          </div>
-        </nav>
-      </div>
-    </div>
-
-    <div class="main-slider">
-      <div
-        id="carouselExampleIndicators"
-        class="carousel slide"
-        data-bs-ride="true"
-        data-bs-interval="4000"
-      >
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#academics">Academics</a></li>
+                    <li><a href="#admissions">Admissions</a></li>
+                    <li><a href="#achievements">Achievements</a></li>
+                    <li><a href="#gallery">Gallery & Events</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+                <div class="menu-toggle" id="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
         </div>
-    
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </div>
+    </header>
 
-    <div class="notice-sction">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <div class="card" style="width: 100%">
-              <h5 class="card-title notice">Vision</h5>
-              <div class="card-body">
-                <marquee direction="up">
-                  <p class="card-text">
-                   Welcome to BRIGHT DAY SCHOOL , SIMALWARA, RAJASTHAN.
-BRIGHT DAY SCHOOL takes great pride in giving quality education,and especially putting its heart and soul in improvising the standard of ENGLISH in our students. Our dedicated and professional staff leave no stone unturned to provide the BEST HOLISTIC EDUCATION confirming that each and every child makes progress in their learning process.
-
-                  </p>
-                  <p class="card-text">
-                  We are one of the 15 to 20 schools serving the rural area and giving our best for the upliftment of the children in our area.
-We currently run classes from Play School to 5th Grade though we have permission uptil Grade 8th.
-We are situated in an all green environment with open play grounds and gardens  around. Our classrooms are big and airy with the best ventilation. Besides classrooms , we can also boast of a library with books on a variety of topics and well equiped Science and Computer labs. A huge swimming pool is another attraction of BRIGHT DAY SCHOOL
-                  </p>
-                  <p class="card-text">
-                    Our motto is
-Commitment towards our students, zero tolerance in quality,
-And Excellence  in all we do.
-For a BRIGHT AND SECURE FUTURE OF YOUR CHILD 
-Do visit our school once .
-Looking forward to meet you.
-                  </p>
-                </marquee>
-              </div>
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-overlay"></div>
+            <div class="container hero-content">
+                <h2>Shaping Bright Futures, One Day at a Time.</h2>
+                <p>Empowering young minds with academic excellence and holistic development in a caring English Medium environment.</p>
+                <a href="#admissions" class="btn btn-primary">Admissions Open 2025-26</a>
             </div>
-          </div>
+        </section>
 
-          <div class="col">
-            <div class="card" style="width: 100%">
-              <h5 class="card-title notice">Achievement</h5>
-              <div class="card-body">
-                <marquee direction="up">
-                  <p class="card-text">
-                   Our school is in its FIRST YEAR but we are proud to say we have made our mark in the town of Simalwara and have a Roll of 125 + Students with more coming in our Mid Term Admission process.
-                  </p>
-                
-                </marquee>
-              </div>
+        <section id="about" class="section-padding">
+            <div class="container">
+                <h2 class="section-title">About Bright Day School</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>Welcome to Bright Day School, a beacon of learning situated in the serene environment of Dhambola-Simalwara. Established with a vision to provide unparalleled English Medium education, we cater to students from Play Group to 8th Standard, fostering a journey of discovery, growth, and achievement.</p>
+                        <p>Our philosophy is rooted in nurturing not just intelligent minds, but also compassionate and responsible individuals. We believe that true education extends beyond textbooks, encompassing character building, critical thinking, and a lifelong love for learning. Our dedicated team of experienced educators is committed to creating an engaging and supportive atmosphere where every child feels valued and inspired to reach their full potential.</p>
+                        <p>At Bright Day School, we pride ourselves on a curriculum that blends academic rigor with a rich array of extracurricular activities, ensuring a well-rounded development. Our consistent track record of 100% board results stands as a testament to our unwavering commitment to academic excellence and the collaborative efforts of our students, teachers, and parents.</p>
+                        <a href="#contact" class="btn btn-secondary">Discover Our Vision</a>
+                    </div>
+                    <div class="about-image">
+                        <img src="Images/school.png" alt="Bright Day School Building, Dhambola-Simalwara">
+                    </div>
+                </div>
             </div>
-          </div>
+        </section>
 
-          <div class="col">
-            <div class="card" style="width: 100%">
-              <h5 class="card-title notice">News</h5>
-              <div class="card-body">
-                <marquee direction="up">
-                  <p class="card-text">
-                    Admissions are open for the 2024 session
-                  </p>
-                  
-                </marquee>
-              </div>
+        <section id="academics" class="section-padding bg-light">
+            <div class="container">
+                <h2 class="section-title">Our Academic Programs</h2>
+                <p class="section-description">At Bright Day School, our English Medium curriculum is meticulously designed to provide a strong educational foundation, stimulating intellectual curiosity and practical skills from Play Group to 8th Standard.</p>
+                <div class="academics-grid">
+                    <div class="academic-item">
+                        <i class="fas fa-book-open"></i>
+                        <h3>Comprehensive Curriculum (Play Group to 8th)</h3>
+                        <p>We offer a well-structured and progressive curriculum covering all core subjects, preparing students for future academic challenges while emphasizing conceptual understanding and application.</p>
+                    </div>
+                    <div class="academic-item">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                        <h3>Dedicated & Experienced Faculty</h3>
+                        <p>Our team of highly qualified and passionate teachers employs innovative teaching methodologies, ensuring personalized attention and a deep understanding of subjects for every student.</p>
+                    </div>
+                    <div class="academic-item">
+                        <i class="fas fa-microscope"></i>
+                        <h3>Interactive & Experiential Learning</h3>
+                        <p>Beyond traditional methods, we encourage hands-on experiments, project-based learning, and interactive sessions to make education engaging, practical, and memorable.</p>
+                    </div>
+                    <div class="academic-item">
+                        <i class="fas fa-trophy"></i>
+                        <h3>Holistic & Skill-Based Development</h3>
+                        <p>Our academic approach is complemented by a focus on critical thinking, problem-solving, communication, and leadership skills, ensuring complete personality development.</p>
+                    </div>
+                </div>
             </div>
-          </div>
+        </section>
+
+        <section id="admissions" class="section-padding">
+            <div class="container">
+                <h2 class="section-title">Admissions Open 2025-26</h2>
+                <div class="admissions-content">
+                    <img src="Images/admission.jpg" alt="Admissions Open for Bright Day School" class="admissions-image">
+                    <p>Bright Day School is thrilled to announce that admissions are now open for the academic year 2025-26! We invite aspiring students and their families to become a part of our thriving educational community. We offer quality English Medium education from Play Group to 8th Standard.</p>
+                    <p><strong>Admission Process:</strong></p>
+                    <ul class="admissions-list">
+                        <li>**Step 1: Inquiry & Prospectus:** Visit our school campus during office hours (Monday-Saturday, 9:00 AM - 4:00 PM) to collect the admission kit and prospectus. Our administrative staff will be happy to answer your queries.</li>
+                        <li>**Step 2: Registration & Form Submission:** Complete the admission form diligently and submit it along with the required documents within the specified timeframe.</li>
+                        <li>**Step 3: Interaction/Assessment:** A brief interaction session or assessment will be conducted for the child, as per the class requirement, to understand their readiness.</li>
+                        <li>**Step 4: Admission Confirmation:** Upon successful completion of the process and payment of fees, your child's admission will be confirmed.</li>
+                    </ul>
+                    <p><strong>Documents Required:</strong></p>
+                    <ul class="admissions-list">
+                        <li>Original Birth Certificate of the child.</li>
+                        <li>Photocopy of the Aadhar Card of the child and parents.</li>
+                        <li>Previous School Report Card / Transfer Certificate (if applicable, for Class 1 and above).</li>
+                        <li>Two recent passport-sized photographs of the child.</li>
+                        <li>Any other relevant documents as specified by the school.</li>
+                    </ul>
+                    <p>For more details or to schedule a campus visit, please contact us!</p>
+                    <a href="#contact" class="btn btn-primary">Enquire About Admissions</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="achievements" class="section-padding bg-light">
+            <div class="container">
+                <h2 class="section-title">Our Recent Achievements</h2>
+                <p class="section-description">Celebrating the success and hard work of our students and faculty, reflecting Bright Day School's commitment to excellence.</p>
+                <div class="achievement-grid">
+                    <div class="achievement-item">
+                        <img src="Images/WhatsApp Image 2025-06-03 at 22.33.36.jpg" alt="100% Board Results 2024-25">
+                        <h3>Outstanding 100% Board Results (Class 5th Board 2024-25)</h3>
+                        <p>We are immensely proud to announce a phenomenal 100% A Grade result for our Class 5th Board students for the academic year 2024-25! All 14 students demonstrated exceptional dedication and talent, achieving top grades. This remarkable success is a testament to their hard work and the unwavering support of our dedicated teachers.</p>
+                    </div>
+                    <div class="achievement-item">
+                        <img src="Images/WhatsApp Image 2025-06-03 at 22.35.26.jpeg" alt="Summer Camp 2025 Concludes">
+                        <h3>Successful 15-Day Summer Camp 2025 Concludes</h3>
+                        <p>Our highly anticipated annual Summer Camp concluded successfully, offering a vibrant 15-day program packed with engaging activities. Students participated in a diverse range of enriching experiences, fostering new skills and friendships.</p>
+                    </div>
+                    <div class="achievement-item">
+                        <img src="Images/WhatsApp Image 2025-06-03 at 22.35.24.jpeg" alt="Summer Camp Self Defense Training">
+                        <h3>Empowering Self-Defense Training at Summer Camp</h3>
+                        <p>A highlight of our Summer Camp 2025 was the specialized self-defense training program. Expert instructors guided students through essential techniques, promoting physical fitness, discipline, and building crucial self-confidence and awareness for their safety.</p>
+                    </div>
+                    <div class="achievement-item">
+                        <img src="Images/WhatsApp Image 2025-06-03 at 22.35.23.jpeg" alt="Summer Camp Activities">
+                        <h3>Vibrant & Enriching Summer Camp Activities</h3>
+                        <p>The Bright Day School Summer Camp was a hub of creativity and energy. From interactive workshops and artistic endeavors to thrilling sports and team-building games, every activity was designed to ensure a fun-filled and enriching holiday experience for all participating children.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="section-padding">
+            <div class="container">
+                <h2 class="section-title">Glimpses of Bright Day School</h2>
+                <p class="section-description">Explore our vibrant school life, academic pursuits, extracurricular activities, and campus through these captivating moments.</p>
+                <div class="image-gallery">
+                    <img src="Images/WhatsApp Image 2025-06-03 at 22.35.24.jpeg" alt="Students learning self-defense at Summer Camp">
+                    <img src="Images/WhatsApp Image 2025-06-03 at 22.35.23.jpeg" alt="Kids engaging in summer camp activities">
+                    <img src="Images/WhatsApp Image 2025-06-03 at 22.35.26 (1).jpeg" alt="Students performing cultural program at Summer Camp">
+                    <img src="Images/sports.jpg" alt="Students actively participating in sports activities">
+                    <img src="Images/event.jpg" alt="A lively school event or celebration">
+                    <img src="Images/school.png" alt="Overview of Bright Day School campus">
+                    <img src="Images/history.jpg" alt="Historic view or significant moment of the school">
+                    <img src="Images/WhatsApp Image 2025-06-03 at 22.35.26.jpeg" alt="Poster: Summer Camp 2025">
+                    <img src="Images/WhatsApp Image 2025-06-03 at 22.33.36.jpg" alt="Poster: 100% Board Results 2024-25">
+                    </div>
+                <div class="text-center mt-4">
+                     <a href="https://yourwebsite.com/gallery.html" class="btn btn-secondary">View More Photos & Videos</a> </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section-padding bg-light">
+            <div class="container">
+                <h2 class="section-title">Contact Us</h2>
+                <p class="section-description">We'd love to hear from you! Reach out to Bright Day School for admissions inquiries, career opportunities, or any general questions.</p>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Get in Touch</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Bright Day School, Dhambola-Simalwara, Near Tehsil Office, Mata Shree Farm, Dist. Dungarpur-314402, Rajasthan, India</p>
+                        <p><i class="fas fa-phone"></i> **Admissions & General:** +91 82332 36770</p>
+                        <p><i class="fas fa-envelope"></i> brightsimalwara@gmail.com</p>
+                        <p><i class="fas fa-globe"></i> www.brightday.in</p>
+                        <p><i class="fas fa-clock"></i> **Office Hours:** Monday - Saturday, 9:00 AM - 4:00 PM</p>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/yourbrightdayschool" target="_blank" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/yourbrightdayschool" target="_blank" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            </div>
+                    </div>
+                    <div class="contact-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3683.0805364139885!2d73.70420459999999!3d22.5855073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjLCsMzUxzExLjgiTiA3M8KwNDInMTUuMSJF!5e0!3m2!1sen!2sin!4v1701388487771!5m2!1sen!2sin" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <h3 class="text-center mt-5">Send Us a Message</h3>
+                <form action="https://formspree.io/f/yourformid" method="POST" class="contact-form"> <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <input type="text" name="subject" placeholder="Subject (e.g., Admission Inquiry, Career)" required>
+                    <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+                 <p class="form-note">Please note: This contact form utilizes Formspree for convenient email delivery. For enhanced functionalities or direct server-side processing, additional setup would be required.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h3>Bright Day School</h3>
+                    <p>Dedicated to fostering academic excellence and holistic development, preparing students to be confident, compassionate, and responsible global citizens.</p>
+                    <p><strong>"Shaping Bright Futures, One Day at a Time."</strong></p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#academics">Academics</a></li>
+                        <li><a href="#admissions">Admissions</a></li>
+                        <li><a href="#achievements">Achievements</a></li>
+                        <li><a href="#gallery">Gallery & Events</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Connect With Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Dhambola-Simalwara, Near Tehsil Office, Mata Shree Farm, Dist. Dungarpur-314402, Rajasthan, India</p>
+                    <p><i class="fas fa-phone"></i> +91 82332 36770</p>
+                    <p><i class="fas fa-envelope"></i> brightsimalwara@gmail.com</p>
+                    <p><i class="fas fa-globe"></i> www.brightday.in</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 Bright Day School. All rights reserved. | Developed with <i class="fas fa-heart" style="color: #ff6b6b;"></i> by jaythedon</p>
+            </div>
         </div>
-      </div>
-    </div>
+    </footer>
 
-    <div class="about-us-sction">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-         
-
-    <div class="our-facility-sction">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <h1>OUR FACILITY</h1>
-          </div>
-
-          <div class="col">
-            <div class="card" style="width: 100%">
-              <img
-                src="./Images/TECHNOLOGY.jpeg"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">TECHNOLOGY</h5>
-                <p class="card-text">
-                  A computer lab is a setup or space where an entire class full can be taught important concepts like how to use computers, or how to do coding, etc. The students are usually trained by a trained computer teacher.
-                </p>
-                <a href="#" class="btn btn-primary">Read More</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card" style="width: 100%">
-              <img
-                src="./Images/TRANSPORTATION.jpeg"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">TRANSPORTATION</h5>
-                <p class="card-text">
-                  buses are available for transportation.
-                </p>
-                <a href="#" class="btn btn-primary">Read More</a>
-              </div>
-            </div>
-          </div>
-
-          
-        </div>
-      </div>
-    </div>
-
-    <div class="staff-sction">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <h1>Our Events</h1>
-          </div>
-          
-        <div class="image-grid">
-        <div class="image-item"><img src="./Images/event1.jpg" alt="Image 1"></div>
-        <div class="image-item"><img src="./Images/event2.jpg" alt="Image 2"></div>
-        <div class="image-item"><img src="./Images/event3.jpg" alt="Image 3"></div>
-        <div class="image-item"><img src="./Images/event4.jpg" alt="Image 4"></div>
-        <div class="image-item"><img src="./Images/event5.jpg" alt="Image 5"></div>
-        <div class="image-item"><img src="./Images/event6.jpg" alt="Image 6"></div>
-    </div>
-
-         
-        </div>
-      </div>
-    </div>
-
-    <div class="footer bg-dark">
-      <div class="container">
-        
-          <div class="col">
-            <h4 class="text-white">Menu</h4>
-            <ul>
-              <li><a class="text-white" href="#">Home</a></li>
-          
-              <li><a class="text-white" href="#">Gallery</a></li>
-        
-              <li><a class="text-white" href="#">Contact Us</a></li>
-            </ul>
-          </div>
-
-          <div class="col">
-            <h4 class="text-white">Contact Info</h4>
-            <ul style="list-style-type: none;">
-              <li class="text-white">Address: Mato shree farm Behind tehsil office Dhambola Simalwara</li>
-              <li class="text-white">Phone No.:8233236770, 9725237095 </li>
-              <li class="text-white">Email ID: brightsimalwara@gmail.com</li>
-            </ul>
-          </div>
-          <div class="col-md-12 text-center">
-            <p style="
-            border-top: 1px solid #fff;color:#fff;
-        ">All Rights Reserved</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-      crossorigin="anonymous"
-    ></script>
-          <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  </body>
+    <script src="script.js"></script>
+</body>
 </html>
