@@ -13,10 +13,16 @@
 <body>
 
     <header class="main-header">
+        <div class="top-contact-bar">
+            <div class="container">
+                <a href="tel:+918233236770" class="top-phone"><i class="fas fa-phone"></i> +91 82332 36770</a>
+                <span class="spacer">|</span>
+                <a href="mailto:brightsimalwara@gmail.com" class="top-email"><i class="fas fa-envelope"></i> brightsimalwara@gmail.com</a>
+            </div>
+        </div>
         <div class="container header-content">
             <div class="logo">
-                <img src="Images/log.jpg" alt="Bright Day School Logo">
-                <h1>Bright Day School</h1>
+                <img src="Images/logo.jpg" alt="Bright Day School Logo"> <h1>Bright Day School</h1>
             </div>
             <nav class="main-nav" id="main-nav">
                 <ul class="nav-list">
@@ -26,7 +32,8 @@
                     <li><a href="#admissions">Admissions</a></li>
                     <li><a href="#achievements">Achievements</a></li>
                     <li><a href="#gallery">Gallery & Events</a></li>
-                    <li><a href="#contact">Contact Us</a></li> </ul>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
                 <div class="menu-toggle" id="mobile-menu">
                     <i class="fas fa-bars"></i>
                 </div>
@@ -234,4 +241,70 @@
 
         <section id="contact" class="section-padding">
             <div class="container">
-                <h2 class="section-
+                <h2 class="section-title">Contact Us</h2>
+                <p class="section-description">We'd love to hear from you! Reach out to Bright Day School for admissions inquiries, career opportunities, or any general questions.</p>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Get in Touch</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Bright Day School, Dhambola-Simalwara, Near Tehsil Office, Mata Shree Farm, Dist. Dungarpur-314402, Rajasthan, India</p>
+                        <p><i class="fas fa-phone"></i> **Admissions & General:** <a href="tel:+918233236770" class="contact-link">+91 82332 36770</a></p>
+                        <p><i class="fas fa-envelope"></i> <a href="mailto:brightsimalwara@gmail.com" class="contact-link">brightsimalwara@gmail.com</a></p>
+                        <p><i class="fas fa-globe"></i> <a href="https://www.brightday.in/" target="_blank" class="contact-link">www.brightday.in</a></p>
+                        <p><i class="fas fa-clock"></i> **Office Hours:** Monday - Saturday, 9:00 AM - 4:00 PM</p>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/yourbrightdayschool" target="_blank" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/yourbrightdayschool" target="_blank" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            </div>
+                    </div>
+                    <div class="contact-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3683.0805364139885!2d73.70420459999999!3d22.5855073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjLCsMzUxzExLjgiTiA3M8KwNDInMTUuMSJF!5e0!3m2!1sen!2sin!4v1701388487771!5m2!1sen!2sin" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <h3 class="text-center mt-5">Send Us a Message</h3>
+                <form action="https://formspree.io/f/yourformid" method="POST" class="contact-form"> <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <input type="text" name="subject" placeholder="Subject (e.g., Admission Inquiry, Career)" required>
+                    <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+                 <p class="form-note">Please note: This contact form utilizes Formspree for convenient email delivery. For enhanced functionalities or direct server-side processing, additional setup would be required.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h3>Bright Day School</h3>
+                    <p>Dedicated to fostering academic excellence and holistic development, preparing students to be confident, compassionate, and responsible global citizens.</p>
+                    <p><strong>"Shaping Bright Futures, One Day at a Time."</strong></p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#academics">Academics</a></li>
+                        <li><a href="#admissions">Admissions</a></li>
+                        <li><a href="#achievements">Achievements</a></li>
+                        <li><a href="#gallery">Gallery & Events</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Connect With Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Dhambola-Simalwara, Near Tehsil Office, Mata Shree Farm, Dist. Dungarpur-314402, Rajasthan, India</p>
+                    <p><i class="fas fa-phone"></i> +91 82332 36770</p>
+                    <p><i class="fas fa-envelope"></i> brightsimalwara@gmail.com</p>
+                    <p><i class="fas fa-globe"></i> www.brightday.in</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 Bright Day School. All rights reserved. | Developed with <i class="fas fa-heart" style="color: #ff6b6b;"></i> by jaythedon</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
