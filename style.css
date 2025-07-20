@@ -122,8 +122,8 @@ h2::after {
 
 .btn-primary-outline {
     background-color: transparent;
-    color: white; /* Changed from var(--light-text) to white for consistency with hero */
-    border: 2px solid white; /* Changed from var(--light-text) to white */
+    color: white;
+    border: 2px solid white;
 }
 
 .btn-primary-outline:hover {
@@ -138,6 +138,38 @@ h2::after {
 
 
 /* Header */
+.top-contact-bar {
+    background-color: var(--primary-color);
+    color: var(--light-text);
+    padding: 8px 0;
+    font-size: 0.9em;
+}
+
+.top-contact-bar .container {
+    display: flex;
+    justify-content: flex-end; /* Align to the right */
+    align-items: center;
+    gap: 15px; /* Space between items */
+}
+
+.top-contact-bar a {
+    color: var(--light-text);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.top-contact-bar a:hover {
+    color: var(--secondary-color);
+}
+
+.top-contact-bar i {
+    margin-right: 5px;
+}
+
+.top-contact-bar .spacer {
+    color: rgba(255, 255, 255, 0.4);
+}
+
 .main-header {
     background-color: #fff;
     padding: 15px 0;
@@ -558,12 +590,26 @@ h2::after {
     display: flex;
     align-items: flex-start;
 }
+.contact-info p:last-of-type { /* No margin for last paragraph */
+    margin-bottom: 0;
+}
 
 .contact-info i {
     font-size: 1.4em;
     color: var(--secondary-color);
     margin-right: 15px;
     margin-top: 3px; /* Align icon with text */
+}
+
+.contact-info .contact-link { /* Style for links within contact info */
+    color: var(--dark-text);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-info .contact-link:hover {
+    color: var(--secondary-color);
+    text-decoration: underline;
 }
 
 .social-links {
@@ -692,6 +738,15 @@ h2::after {
 
 /* Responsive Design */
 @media (max-width: 992px) {
+    .top-contact-bar .container {
+        justify-content: center;
+        flex-wrap: wrap; /* Allow to wrap on smaller screens */
+        gap: 10px 20px; /* Vertical and horizontal gap */
+    }
+    .top-contact-bar .spacer {
+        display: none; /* Hide spacer on small screens if wrapped */
+    }
+
     .header-content {
         flex-wrap: wrap;
         justify-content: center;
@@ -704,7 +759,7 @@ h2::after {
     .main-nav {
         width: 100%;
         position: absolute;
-        top: 90px; /* Adjust based on header height */
+        top: 120px; /* Adjusted to account for top-contact-bar */
         left: 0;
         background-color: white;
         box-shadow: 0 8px 10px rgba(0,0,0,0.1);
@@ -730,7 +785,7 @@ h2::after {
         display: block; /* Show menu toggle on smaller screens */
         position: absolute;
         right: 20px;
-        top: 25px;
+        top: 70px; /* Adjusted to account for top-contact-bar */
     }
 
     .hero-content h2 {
@@ -807,6 +862,12 @@ h2::after {
     }
     .highlight-content .icon-xxl {
         font-size: 3em;
+    }
+    .main-nav {
+        top: 110px; /* Further adjust for very small screens if needed */
+    }
+    .menu-toggle {
+        top: 60px; /* Further adjust for very small screens if needed */
     }
 }
 
